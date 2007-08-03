@@ -28,7 +28,7 @@ case.
 
 """
 
-# $Id: xmlstream.py 69 2005-09-05 14:44:19Z Zoomq $
+# $Id: xmlstream.py 1 2005-09-08 15:07:18Z Zoomq $
 
 import site
 site.encoding = 'UTF-8'
