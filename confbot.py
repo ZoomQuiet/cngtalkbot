@@ -76,7 +76,7 @@ import locale
 import threading
 
 version = '1.9.2'
-revision = '$Revision: 35 $'
+revision = '$Revision: 33 $'
 commandchrs = '/)'
 
 from dict4ini import DictIni
@@ -104,7 +104,7 @@ welcome = _("""Welcome to ConferenceBot %(version)s
 By Isomer (Perry Lorier) and Limodou
 This conference bot is set up to allow groups of people to chat.
 ")help" to list commands, ")quit" to quit
-")lang en" for English, and ")lang zh_CN" for Chinese""")
+")list en" for English, and ")list zh_CN" for Chinese""")
 
 xmllogf = open("xmpp.log","w")
 last_activity=time.time()
