@@ -1067,7 +1067,7 @@ class Roster:
 
     def _setShow(self,jid,val):
         """Used internally - private"""
-        jid = unicode(jid) 
+        jid = unicode(jid).lower() 
         if self._data.has_key(jid):
             self._data[jid]['show'] = val 
         else:                      ## fall back 
